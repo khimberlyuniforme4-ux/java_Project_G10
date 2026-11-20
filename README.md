@@ -3,11 +3,12 @@
 Low Stock Replenishment Management
 
 ## Description
-This project is for the implementation of Low Stock Replenishment Management using a Priority Queue in Java.
+This project is for the implementation of Low Stock and Replenishment Management using a Priority Queue in Java.
 
 ## Features
 - Detect Low Stock Products
 - Add Replenishment Request
+- Add and Update product
 - Assign Priority
 - Process Highest Priority Request
 - Display Pending Replenishment Requests

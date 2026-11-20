@@ -1,5 +1,4 @@
 class ReplenishmentRequest {
-
     private int requestId;
     private Product product;
     private int requestedQuantity;
@@ -41,9 +40,9 @@ class ReplenishmentRequest {
             case 1:
                 return "HIGHEST - OUT OF STOCK";
             case 2:
-                return "HIGH - CRITICAL STOCK";
+                return "HIGH Priority - CRITICAL STOCK";
             case 3:
-                return "MEDIUM - LOW STOCK";
+                return "MEDIUM Priority - LOW STOCK";
             default:
                 return "NORMAL";
         }

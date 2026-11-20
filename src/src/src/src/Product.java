@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Product {
 
     private int productId;
@@ -27,14 +29,14 @@ class Product {
     }
 
     public String getStockStatus() {
-        if (quantity <= 0) {
+
+        if (quantity <= 0)
             return "OUT OF STOCK";
-        } else if (quantity <= 5) {
+        else if (quantity <= 5)
             return "CRITICAL STOCK";
-        } else if (quantity <= 10) {
+        else if (quantity <= 10)
             return "LOW STOCK";
-        } else {
+        else
             return "NORMAL";
-        }
     }
 }
